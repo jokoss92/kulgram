@@ -67,7 +67,7 @@ Uncomment
 <br>untuk mengaktifkan fitur eloquent (Optional)
 
 Uncomment
-```
+```php
 $app->routeMiddleware([
     'auth' => App\Http\Middleware\Authenticate::class,
 ]);
@@ -75,7 +75,7 @@ $app->routeMiddleware([
 <br>untuk mengaktifkan middleware di route (untuk auth)
 
 uncomment 2 baris ini
-```
+```php
 $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\AuthServiceProvider::class);
 ```
@@ -141,7 +141,7 @@ Pertama kita bikin CORS Middleware nya dulu. Buat CorsMiddleware.php didalam
 `app/Http/Middleware</code>`
 
 Trus copas ini
-```
+```php
 <?php
 
 namespace App\Http\Middleware;
@@ -169,7 +169,7 @@ class CorsMiddleware
 ```
 Trus di `bootstrap/app.php</code> edit settingan / uncomment dan tambahkan middleware nya jadi begini
 
-```
+```php
 $app->middleware([
    App\Http\Middleware\CorsMiddleware::class
 ]);
@@ -184,3 +184,5 @@ Sekian kulgram pembahasan Lumen ini. Maaf ya, judul nya Lumen Vue, tapi belum ad
 terima kasih mas @ammarfaizi2 @XsetsugaX @mai92 @nooradiana @Shiyinq @undefined_zain yang udah partisipasi di kulgram kali ini. Mohon maaf kalau ada salah kata, karena saya gak pandai menyusun kata kata.
 
 Wassalamualaikum warahmatulli wabarakatuh
+
+_**Penulis:** [Nusendra Hanggarawan](https://github.com/nusendra)_
