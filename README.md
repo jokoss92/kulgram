@@ -45,7 +45,7 @@ Tingkat: Pemula<br>
 Tanggal: 31 Desember 2017<br>
 Oleh: Nusendra Hanggarawan<br>
 
-[README](https://github.com/laravelindonesia/kulgram/tree/master/berkas/1.1-Penjelasan_tambahan_route_manual_cors_middleware_lumen_v5.5)
+[README](https://github.com/laravelindonesia/kulgram/blob/master/berkas/1.1-Penjelasan_tambahan_Route_dan_Manual_CORS_Middleware_Lumen_v5.5/README.md)
 
 ![](./gambar/pemisah.png)
 
